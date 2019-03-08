@@ -1,0 +1,9 @@
+The maze will be generated using the recursive backtracking algorithm
+
+Computer controlled bots will naviagate the maze in an attempt catch the player. If caught the player teleports further from the goal by a small amount
+
+Also there will be sections that require the user to solve a puzzle to continue
+
+All this will be on the timer and the objective it to complete the maze as quickly as possible
+
+In C++ using visual studios
