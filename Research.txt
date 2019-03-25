@@ -1,0 +1,26 @@
+Existing programs
+When searching for the sites, I used the Google search engine and looked over many different online maze games and decided to pick from some of the most popular sites to review.
+These sites will help me develop my design section for my maze. I will only use these sites as inspiration as my goal is to create a unique maze game.
+
+First source - ToyTheater
+The first website is https://toytheater.com/maze/.  This is a site called “ToyTheater”. ToyTheater provides online educational games for young children.
+The maze game on ToyTheater requires the user to navigate a rochet ship back to Earth. The maze starts of simple however as the user progresses through each stage, the mazes get more and more challenging. The way the program makes the mazes more challenging is by increasing the size of the maze.
+The program randomly generates a new maze each time and randomly places the player and end goal within the maze. This is an oversight by the creator since the player can be placed right next to the goal itself. Therefore, when I design my game, I will make sure the player and the goal are a good distance apart to make the maze challenging for the user.
+Also, when looking at each maze, I realised there wasn’t any loops within the maze which means when there is no way for the player to get back to where there are without backtracking the path they have already walked along. I do not know if this is a good thing or not however it will be something that I need to look into in my design section.
+
+Second source - CoolMathsGames
+This second website is https://www.coolmathgames.com/0-mazerace2. This site is called “CoolMathsGames”. CoolMathsGames is another site that provides games however the target audience for this is for older children.
+This program also requires the player to navigate an object through a maze to the end goal. However, this differs from the first site in several ways. CoolMathsGames, unlike the first site, has the user race against the computer to the end goal making the experience more intense. Also, CoolMathsGames allows the user to collect power-ups that can do a variety of things to make it more likely for the user to beat the computer. CoolMathsGames does not need to make different stages more challenging by increasing the maze size, the program can also increase the speed of the computer’s bot navigating the maze to make each stage more challenging.
+This site also solves the problem the first site has with the player and the goal randomly generating next to each other. Although CoolMathsGames has a completely random maze each time, the player and the goal never appear to spawn next to each other.
+The maze generated is like the first site’s maze in the sense that there are no loops in the maze at all. This is implying that either the algorithm they used doesn’t allow loops are loops make the maze easier to solve.
+
+Third source - MathsFrame
+The final website is https://mathsframe.co.uk/en/resources/resource/468/Maths-Maze-Monsters-Multiplication. This site is called “MathsFrame”.  MathsFrame is a website that targets key stage two school students and provides maths challenges in the form of games.
+This maze game MathsFrame provide also has maths questions pop up as the user navigates the maze. This is different to the two mazes. Also, this maze doesn’t have an end goal, instead it has the user race against someone else to collect points and you can only collect points by finding the questions in the maze and answering them correctly.
+Also, MathsFrame, unlike the other two sites, allows the maze to have loops in it. However, I assume this is because there is no goal and a race to collect as many cupcakes, it makes the game fair for both parties involved. MathsFrame still has the game randomly generate each time.
+Fourth source – PacMan 256
+PacMan 256 is a game on the Appstore. The game requires the user to navigate a never-ending maze before it is caught by ghosts.
+This game does not have an end goal but is a survival-based game instead. This means requires the user to move quickly but also along the correct path.
+
+Further research on mazes
+From the sites I have looked at above, I need to decide if I should include loops in my maze. Though I decided to look at many real famous mazes in the world. The mazes I looked at were “Davis Mega Mystery Maze, United States” and “Longleat Maze, Britain”. Both these mazes contain loops and are considered difficult therefore I shall also include loops in my maze.
