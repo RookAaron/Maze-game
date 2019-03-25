@@ -1,0 +1,50 @@
+The program requirements will explain the program from the point of view from the user.
+I shall explain all the user’s needs for my project
+
+User need one
+This shall allow the user to access the main menu. The main menu will consist of:
+•	Play
+•	Custom level
+•	Exit
+Each option leads to a different path of the code. This section can be modified in the design section when I fine tune my project.
+
+User need two
+The next user need allows the user to play a level with the difficulty chosen by the user. The level will have varying difficulty levels which the code will use to generate the maze.
+When playing, the computer will generate a random maze where the user starts in the top left and the goal will be in the bottom right. The maze generated will contain loops.
+To make the game exciting and intense there shall be computer-controlled bots chasing the user around. If the user is caught, the game will end regardless of score or time spent on the game.
+User need three
+The free play mode will allow the user to edit the various options themselves. The user will be able to edit the maze size, spawn rate for the bot and speed of the bot.
+
+
+Program specification
+The program specification will describe the algorithm that shall be used for the program to work
+
+Generating the maze
+To generate a random maze, I will use the recursive backtracking algorithm. This entails having a maze completely filled with walls (meaning it is impossible). Then randomly remove walls of cells that have not had any walls removed yet and then move onto the next cell. This creates a random maze and will use a recursive function to generate.
+This method will create a maze that has no loops. Therefore, I shall then randomly remove a few extra walls just to allow some loops but not many. This will make it possible for the user to avoid the computer-controlled bot.
+
+Computer-controlled bot
+The bots will move after a given amount of time has elapsed. The bot’s path will be determined to be the shortest path from there current position to the user.
+If the user is caught, the game will terminate since there is no goal for the user and the game is a survival-based game.
+Problem decomposition
+
+User/Bot class
+The user and bot will use the same class. This is because they will both be able to move through the maze in the same way. The only difference in the user will input where the move to while the bot will generate its direction from an algorithm.
+The user/bot class will not deal with what happens when the user is caught and instead this will be handled by another class entirely.
+The user shall use the arrow keys to move around the maze.
+The bot will use a simple path finder to move in the direction towards the player.
+
+Maze class
+The maze will be the first thing to create. This is because the rest of the code requires this class to use. I will only be able to test the other classes using this class.
+To generate the maze, I will use a recursive backtracking algorithm. This will create a maze with every possible wall created and then pick a random (unvisited) cell and removing a random wall and then going to that cell.
+
+Level class
+The level class will tie everything together. Depending on the difficulty selected by the user, this class will initialise all the game information needed.
+This class will inherit both the user/bot class and the maze class. This will allow the game to control all the factors like when the bots move or not and shape of the maze.
+The level class will continue to loop until the user is finally caught or the user quits the level.
+
+
+Comparison with existing programs
+When looking on Google and the Appstore (on android), there was not a game that requires the user to travel back and fourth a maze trying not to get caught. The closes game to mine was Pacman however this game has the user collect points and will win if there are no more points to gather. My game will have the game continue until the user is caught. I have decided to do this because the recent popular apps have never had the ability to reach an end goal but rather make the level harder and harder until the user fails. These types of games include (temple run, flappy birds and Pacman 256).
+I will use a common random maze generating algorithm. This is because the recursive backtracking algorithm is the most efficient to use.
+This all shows that my maze game will be unique with a little bit of similarities to maze games already online.
